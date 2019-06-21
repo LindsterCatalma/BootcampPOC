@@ -1,0 +1,15 @@
+
+body.login {
+    background-image: url("C:/Users/lcatalma/Desktop/Assignment/ansgar-scheffold-1153119-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.login {
+    background-color: whitesmoke;
+    opacity: 90%;
+    height: fit-content;
+    width: fit-content;
+}
+
