@@ -29,7 +29,7 @@ body {
 .MenuItem{
   background: white;
   border-radius: 10px;
-  box-shadow: 0px 0px 12px black;
+  box-shadow: 0px 0px 12px  rgba(0, 0, 0, 0.5);
   text-align: center;
   height: 100%;
   color: #566B85;
