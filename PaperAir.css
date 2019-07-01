@@ -7,6 +7,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 .boxes {
     background: white;
     border-top-left-radius: 10px;
@@ -30,7 +35,6 @@ body {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     padding: 10px;
-
 }
 
 .boxcontent {
@@ -43,18 +47,59 @@ body {
     padding-left: 20px
 }
 
-img.boxlogo{
+img.boxlogo {
     margin-top: 3%;
     width: 60;
     height: 60px;
 }
 
-span{
+.thumbsboxes {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: fit-content;
+    margin-top: 4%
+}
+
+.thumbsimg {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%
+}
+
+.thumbsboxheader {
+    background: #4C8BB5;
+    border-top-right-radius: 10px;
+    width: inherit;
+    height: fit-content;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.thumbsboxcontent {
+    padding-top: 2%;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+span {
     font-weight: 900;
     font-size: 20px;
 }
 
-small{
+small {
     color: black;
     font-size: 12px;
 }
@@ -62,5 +107,18 @@ small{
 .inactiveLink {
     pointer-events: none;
     cursor: default;
- }
+}
 
+span.warning{
+    color: red;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+button.primeBTN{
+    background-color: #4CB5AB;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
