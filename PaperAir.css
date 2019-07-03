@@ -68,7 +68,7 @@ img.boxlogo {
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%
+    width: 100%;
 }
 
 .thumbsboxheader {
@@ -109,6 +109,7 @@ p.details{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: black;
+    margin-top: -12px;
 }
 
 .inactiveLink {
@@ -128,4 +129,19 @@ button.primeBTN{
     color: white;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+}
+
+a.linkage{
+    color: blue;
+    text-decoration: underline;
+}
+
+div.attention{
+    text-align: center;
+    border: 1px solid red;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px
 }
