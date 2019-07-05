@@ -62,12 +62,9 @@ img.boxlogo {
     margin-top: 4%
 }
 
+
 .thumbsimg {
     border-radius: 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
     width: 100%;
 }
 
@@ -144,4 +141,10 @@ div.attention{
     height: fit-content;
     width: fit-content;
     padding: 10px
+}
+
+div.grayish{
+    background: #e4e7e8;
+    margin-left: 0px;
+    width: 95%;
 }
