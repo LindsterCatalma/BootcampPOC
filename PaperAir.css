@@ -148,3 +148,10 @@ div.grayish{
     margin-left: 0px;
     width: 95%;
 }
+
+img.arrowplane{
+    height: 29px;
+    width: 29px;
+    margin-left: 25px;
+    margin-right: 25px;
+}

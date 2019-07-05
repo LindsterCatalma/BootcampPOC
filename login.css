@@ -12,3 +12,9 @@ div.login {
     border-radius: 20px;
 }
 
+button.primeBTN{
+    background-color: #4CB5AB;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
